@@ -2,10 +2,12 @@
   "name": "redux-loader",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MikeTheReader.github.io/redux-loader",
   "devDependencies": {
     "react-scripts": "1.0.10"
   },
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
@@ -13,6 +15,8 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

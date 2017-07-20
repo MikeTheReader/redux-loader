@@ -20,6 +20,10 @@ as small amount of state that can be controlled by a component higher in ther hi
 See [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367) for more
 details on this.
 
+## Github Pages
+
+The code is running at: https://MikeTheReader.github.io/redux-loader
+
 #### Bootstrapped
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
