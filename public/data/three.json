@@ -1,0 +1,9 @@
+{
+    "data": {
+        "name": "three",
+        "properties": {
+            "one": "three",
+            "alpha": false
+        }
+    }
+}
