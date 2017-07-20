@@ -35,7 +35,7 @@ export const selectItem = item => {
         dispatch(markSelected(item));
         dispatch(requestData(item));
 
-        setTimeout(() => fetch(process.env.PUBLIC_URL + '/data/' + item + '.json').then((response) => {
+        setTimeout(() => fetch(`${process.env.PUBLIC_URL}/data/${item}.json`).then((response) => {
             return response.json();
         }).then((json) => {
             dispatch(receiveData(json.data))

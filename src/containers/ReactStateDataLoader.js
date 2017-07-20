@@ -32,7 +32,7 @@ export default class DataLoader extends Component {
     }
 
     fetchData = (item) => {
-        fetch(process.env.PUBLIC_URL + '/data/' + item + '.json').then((response) => {
+        fetch(`${process.env.PUBLIC_URL}/data/${item}.json`).then((response) => {
             return response.json();
         }).then((json) => {
             this.setState({
