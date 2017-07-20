@@ -28,6 +28,7 @@ function mapDispatchToProps(dispatch) {
     return bindActionCreators({ onItemSelect: selectItem }, dispatch);
 }
 
-// Connects the mapping functions with the component. If the component did not need
-// the componentDidMount method, this could pass the DataApp component instead of the ReduxConnectedDataLoader.
+// Connects the mapping functions with the component. Since we do not need to do anything
+// extra in this component (so don't need the lifecycle methods), we can just wrap the 
+// presentational component.
 export default connect(mapStateToProps, mapDispatchToProps)(DataApp)
