@@ -15,7 +15,7 @@ results. This is a demonstration of the re-usability of the simpler components.
 
 The intention of this is not to say that Redux should be used for all projects, big and small. In fact, one thing
 this project highlights is the amount of additional code required to use Redux in an application that only has
-as small amount of state that can be controlled by a component higher in ther hierarchy. 
+a small amount of state that can be controlled by a component higher in ther hierarchy. 
 
 See [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367) for more
 details on this.
